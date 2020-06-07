@@ -1,0 +1,570 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    line-height: 1;
+}
+.App{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/* center element */
+.Headings{
+    text-align: center;
+    font-size: 32px;
+    max-width: 297px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 65px;
+
+}
+h3{
+    margin-bottom: 19px;
+}
+hr{
+    border: 2px solid #1890FF;
+    border-radius: 1.5px;
+    margin-top: 10px;
+}
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.goalWrapper{
+    display: flex;
+    margin-bottom: 103px;
+  }
+  .datePicker .ant-input{
+    background: #E6F7FF;
+    border-radius: 4px;
+    
+  }
+  .datePicker .ant-calendar-range-picker-input{
+    color: #1890FF;
+  }
+  .ant-calendar-range-picker-input::placeholder {
+    color: #1890FF;
+    opacity: 1; 
+  }
+  /* icon from start? */
+.filterButton{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    max-width: 84px;   
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: flex-start;
+    padding:0;
+}
+.datePicker{
+    margin-right: 77px;
+}
+
+.goal{
+    margin-right: 78px;
+}
+.goal .ant-select-selection{
+    background-color: #E6F7FF;
+    color: #1890FF;
+    
+}
+.variantAll .ant-select-selection{
+    background-color: #E6F7FF;
+    color: #1890FF;
+    
+}
+.spinnerWrapper{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.tabs{
+    max-width: 998px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+
+.keyMetricsTab{
+    border: 3px solid #D9D9D9;
+
+}
+
+
+
+.gridWrapper{
+    display: flex;
+    max-width: 880px;
+    margin:0 auto;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-bottom: 103px;
+}
+
+.individualVariant{
+    margin:25px;
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px #E5E6E7;
+    border-radius: 6px;
+    padding-bottom: 0;
+    }
+.individualVariantSpinner{
+    margin-right: 290px;
+}
+.paddingWrapper{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;                                               
+}
+.conversionRate{
+    font-size: 12px;
+    margin-bottom: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #389E0D;         
+   
+}
+.conversionPercentageWrapper{
+    display: flex;
+    margin-bottom: 12px;
+    position: relative;
+}
+.sync{
+    background-color: transparent;
+    position: relative;
+    top: 6px;
+    /* margin-left: 10px;                                      why padding-left reduces the size */            
+}
+
+.totalVisits{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.visitsValueWrapper{
+    display: flex;
+    margin-bottom: 25px;
+    position: relative;
+}
+.visitsValue{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8C8C8C;
+}
+/* Is this the correct way? */
+.eye{
+    position: relative;
+    top: -2px;  fill: #595959;
+    opacity: 0.5;
+}
+.conversionPercentage{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #389E0D;
+    margin-bottom: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 100%;
+    margin-bottom: 21px;
+    height: 163px;
+}
+                                                                        /*Should have height?*/
+.variantFooter{
+    /* height: 35px; */
+    background-color:#597EF7;
+    border-radius:0 0 5px 5px;
+    width: 100%;
+}
+.font16{
+    font-size: 16px;
+}
+
+.font46{
+    font-size: 46px;
+}
+
+.variantName{
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+.squareBoxWrapper{
+    display:flex;
+    margin:0 auto;
+    flex-direction: row;
+    margin-bottom: 59px;
+    max-width:793px;
+}
+
+.smallSquare{
+    width: 33.33%;
+    box-shadow: 0px 4px 10px #E5E6E7;
+    border-radius: 6px;    
+}
+.vector6{
+    /* z-index: -1; */
+    position: absolute;
+    margin-top: 0px;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    
+}
+.conversionRateSmallBox{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1890FF;
+    margin-right: 65px;
+    /* text-align: center; */
+    padding: 62px 31px;
+}
+.conversionValueSmallBox{
+    margin: 0;
+    margin-bottom: 15px;
+    color: white;
+}
+.conversionTextSmallBox{
+    margin:0;
+    color: white;
+}
+.conversionDataWrapper{
+    z-index: 1;
+}
+/* absolute is taking that of viewport not box      parent needs to be positioned 
+Increase sixe of svg amd then use padding
+*/
+.sync1{
+
+    width: 48px;
+    height: 48px;
+    background-color: #E8F7FF;
+    border-radius: 50%;
+    /* margin: 10px; */
+    position: absolute;
+    top: -24px;
+    right: 26px;
+    padding: 10px;
+}
+/* calculate % and add margin */
+.totalVisitsSmallBox{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 62px 31px;
+    margin-right: 68px;
+
+}
+.totalVisitsValueSmallBox{
+    color: grey;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.totalVisitsTextSmallBox{
+    color: grey;
+}
+
+.uniqueVisitsSmallBox{
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+    padding: 62px 31px;
+}
+.eye2{
+    position: absolute;
+    top:-24px;
+    background-color: #E8E8E8;
+    border-radius: 50%;
+    right: 26px;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+}
+
+.eye1{
+    position: absolute;
+    top:-24px;
+    background-color: #D6E4FF;
+    border-radius: 50%;
+    right: 26px;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+}
+.uniqueVisitsTextSmallBox{
+    color: grey;
+}
+.uniqueVisitsValueSmallBox{
+    color: grey;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.averageTimeSpent{
+    display: flex;
+    position: relative;
+    padding: 34px;
+    margin:0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    max-width: 1000px;
+    background-color: #85A5FF;
+}
+
+.averageTimeValue{
+    font-size: 38px;
+    margin: 0;
+    color: white;
+    margin-right: 24px;
+}
+.averageTimeText{
+    margin: 0;
+    margin-top: 14px;
+    color: white;
+    z-index: 1;
+}
+.clock{
+    position: absolute;
+    color: #2F54EB;
+    background-color: #F0F5FF;
+    top:26px;
+    /* background-color: #D6E4FF; */
+    border-radius: 50%;
+    right: 76px;
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+}
+.vector7{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
+
+/* Metrics.css */
+.buttonsWrapper{
+    max-width: 750px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.metricButtons{
+        background-color: #F5F5F5;
+        border: none;
+        width: 120px;   
+        margin-bottom: 20px;
+        margin-right: 30px;
+        font-size: 16px; 
+        color: #8C8C8C;
+        padding: 15px;
+        border-radius: 4px;
+        
+}
+.buttonOptionsWrapper{
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    text-align: center;
+
+}
+.buttonIcons{
+    fill: #8C8C8C;
+    opacity: 1;
+    margin-right: 10px;
+}
+.metricButtonsValue{
+    margin-bottom: 0;
+}
+.activeClassButtons{
+    background-color: #E6F7FF;
+}
+.activeClassButtons svg{
+    fill: #1890FF;
+}
+.activeClassButtons p{
+    color: #1890FF;
+}
+
+.tableHeadingWrapper{
+    display: flex;
+}
+.tableHeading{
+    font-size: 12px;
+    margin-right: 50px;
+}
+.sortingButton{
+    border-radius: 50%;
+}
+
+
+/* Page Reach */
+.rateWrapper{
+    max-width: 702px;
+    margin: 0 auto;
+    display: flex;
+    align-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px #DDDDDD;
+    border-radius: 6px;
+    margin-bottom: 65px;
+}
+.rate{
+    max-width: 234px;
+    padding: 23px 83px 23px 82px;
+    text-align: center;
+    border-right: 1px solid #E8E8E8;
+    position: relative;
+}
+.rate:last-child{
+    border-right: none;
+}
+.rate h3{
+    font-size: 30px;
+    color:#262626;
+    margin-bottom: 12px;
+}
+.rate p{
+    font-size: 14px;
+    color: #FF4D4F;
+    margin-bottom: 0;
+}
+.rate svg{
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+.bothProgressWrapper{
+    max-width: 702px;
+    margin: 0 auto;
+    display: flex;
+}
+/* How does align-items move from L-R which is justify-content property */
+.progressWrapper{
+    max-width: 304px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 10px #E5E6E7;
+    border-radius: 6px;
+    padding: 30px 20px 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;                    
+}
+.progressWrapper:first-child{
+    margin-right:94px;
+}
+.progressWrapper p{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-size: 16px;
+    color:#262626;
+}
+.pageTextIconWrapper{
+    display: flex;
+}
+
+.pageTextIconWrapper svg{
+    position: relative;
+    top: 13px;
+}
+
+#container{
+    background: #FFFFFF;
+    border: 1px solid #95DE64;
+    box-sizing: border-box;
+    box-shadow: 0px 40px 5px rgba(229, 230, 231, 0.2);
+    border-radius: 6px;
+    padding: 25px 0 0 0;
+    margin-bottom: 90px;
+    max-width: 995px;
+    margin: 90 auto;
+    overflow: hidden;
+    height: 375px;
+}
+
+.graphWrapper{
+    position: relative;
+}
+.graphCategory{
+    margin-bottom: 25px;
+    position: absolute;
+    right: 0;
+    top:-40px;
+
+}
+.graphButton{
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    font-size: 14px;
+    color: #BFBFBF;
+}
+.activeGraph{
+    color:#237804;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #73D13D;
+}
+.custom-tooltip{
+    width: 149px;
+    height: 57px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+.custom-tooltip p{
+    margin-bottom: 0;
+    color: #389E0D;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.graphTooltipConversionWrapper{
+    display: flex;
+    flex-direction: row;
+    
+}
+.conversionPercentageTooltip{
+    font-size: 16px;
+    color: #389E0D;
+    margin-right: 20px;
+}
+.totalVisitsTooltip{
+    display: flex;
+}
+.tooltipIcon{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    fill: #BFBFBF;
+}
+.label{
+    font-size: 11px;
+    position: relative;
+    top:4px;
+    color: #8C8C8C !important; 
+}
+.totalVisitsTooltip p{
+    color:#BFBFBF
+}
+/* ,right ,bottom ,radius , */

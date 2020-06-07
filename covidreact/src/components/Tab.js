@@ -24,7 +24,7 @@ export class Tab extends Component {
                     <p className="tabHeadings">World</p>
                     ]}>       {/*this is the prop*/}  
                     
-                    {/* {this.props.children[0]} */}
+                    {this.props.children[0]}
                 </TabPannel>
                 <TabPannel type="India" top ={[
                     <svg className="tabIcons" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,7 +33,7 @@ export class Tab extends Component {
                     ,
                     <p className="tabHeadings">India</p>
                     ]}>       {/*this is the prop*/}  
-                    {/* {this.props.children[1]} */}
+                    {this.props.children[1]}
                 </TabPannel>  
                 <TabPannel type="local" top ={[
                     <svg className="tabIcons" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,8 +41,9 @@ export class Tab extends Component {
                     </svg>                    
                     ,
                     <p className="tabHeadings">Local</p>
-                    ]}>       {/*this is the prop*/}  
-                    {/* {this.props.children[2]} */}
+                    ]}>   
+                        {/* this is the prop   */}
+                    {this.props.children[2]}
                 </TabPannel>  
             </Tabs>
             </div>
