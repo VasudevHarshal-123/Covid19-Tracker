@@ -1,0 +1,22 @@
+https://blogs.mulesoft.com/dev/api-dev/track-covid-19/
+
+https://corona-api.com/countries			--World country wise data
+
+
+
+api.covid19india.org/raw_data4.json		--India raw data for entry;
+
+
+https://api.covid19india.org/data.json         --India from 30 jan total, recover death	
+
+
+https://corona-api.com/timeline			--World Death	
+
+
+
+https://api.covid19india.org/state_district_wise.json   --India districs wise data
+
+
+https://covid-india-cases.herokuapp.com/states		--India state wise simple format		
+
+https://api.covid19india.org/zones.json			--India district zone

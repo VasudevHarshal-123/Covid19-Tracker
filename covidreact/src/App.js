@@ -8,6 +8,8 @@ import Local from "./components/Local";
 import WorldMap from './components/world/WorldMap';
 import Graph from './components/Graph';
 import About from './components/About.js/About';
+import { Statistic } from 'antd';
+import Statistics from './components/Statistics';
 
 class App extends React.Component{
   constructor(){
@@ -35,8 +37,10 @@ class App extends React.Component{
               <hr  align="center" width="50%">  
               </hr>
             </div> 
-           {/* <WorldMap/> */}
+           <Statistics/>
            <Graph/> 
+            {/* <WorldMap/> */}
+           
           </World>
           
           
